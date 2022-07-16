@@ -1,0 +1,16 @@
+  ::placeholder {
+    text-align: center;
+  }
+  .textError{
+    font-size: x-small;
+    color: red;
+    margin: 6px auto 6px auto;
+  }
+  #btnRegister{
+    box-shadow: 1px 1px 1px 1px rgba(200, 147, 147, 0.3);
+    background-color: #00BDE7;
+    color: white;
+    letter-spacing: 0.150em;   
+}
+    
+  
