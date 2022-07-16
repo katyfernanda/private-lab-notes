@@ -25,7 +25,7 @@ const FormNote = (props) => {
         </div>
         <Form.Control name='content' className="shadow1" as="textarea" style={{ height: '100px' }} required value={props.content}
           onChange={(e) => {
-            props.funtion2(e.target.value)
+            props.function2(e.target.value)
           }} />
         {window.location.pathname === '/create' ?
           <Button variant="outline-info" type="submit" id='btnUpdate'>
