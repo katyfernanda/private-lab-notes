@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { collection, getDocs, deleteDoc, doc, query, orderBy, where } from 'firebase/firestore'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Show.css';
 import { db } from '../../firebaseConfig/firebase'
 import LastEdition from '../utils/LastEdition';
